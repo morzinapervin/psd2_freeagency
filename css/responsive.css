@@ -1,0 +1,421 @@
+@media(max-width: 1199px)and (min-width:992px){
+
+header.top-header::after {
+    right: 254px;
+ 
+}
+
+header.navbar-brand {
+    margin-right: 9px;
+}
+
+li.nav-item {
+    margin-right: 24px;
+}
+
+.navbar-brand img {
+  
+    width: 95%;
+}
+.list-unstyled h1 {
+    font-size: 32px;
+  
+}
+.list-unstyled h6 {
+    font-size: 14px;
+  
+}
+
+.banner-text p {
+    font-size: 27px;
+}
+
+.first {
+ 
+    right: 71px;
+}
+.odd {
+    left: 26%;
+}
+.even {
+      right: 26%;
+}
+
+}
+
+
+
+
+
+/* --------------------md 991-768----- */
+
+@media (min-width:768px) and (max-width:991px){
+
+header.top-header::after {
+    right: 372px;
+}
+
+ul.list-unstyled {
+    margin-right: auto;
+}
+
+.banner-text p {
+    font-size: 22px;
+}
+
+.about-box h3 {
+    font-size: 20px;
+}
+
+.about-box p {
+    max-width: 210px;
+}
+.span {
+    width: 60px;
+    height: 60px;
+   
+}
+.span strong {
+    font-size: 30px;
+}
+.span h6 {
+    font-size: 12px;
+    bottom: 3px;
+    right: 16px;
+
+}
+.approach-textbox h4 {
+    font-size: 19px;
+    margin-bottom: 1px;
+}
+.first {
+    right: 46px;
+    top: 40px;
+}
+.approach-textbox p {
+    max-width: 374px;
+    font-size: 12px; 
+    line-height: 17px;
+}
+
+.second {
+    left: 42px;
+    top: 37px;
+}
+
+.text-box img {
+    width: 12%;
+}
+.text-box h3 {
+    font-size: 17px;
+ 
+}
+.text-box p {
+    font-size: 11px;
+   
+}
+}
+
+
+
+
+
+/* -----------------sm 767-576-----------*/
+@media (min-width:576px) and (max-width:767px){
+
+
+
+.banner-text h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.banner-text p {
+    font-size: 21px;
+}
+.btn-custom1 {
+    padding: 7px 22px;
+    font-size: 18px;
+  
+}
+
+.heading::after {
+    left: 44%;
+}
+.about-box h3 {
+    font-size: 14px;
+}
+
+.about-box p {
+    max-width: 149px;
+}
+
+.span {
+    width: 40px;
+    height: 40px;
+}
+
+.span strong {
+    font-size: 19px;
+}
+.span h6 {
+    font-size: 10px;
+    bottom: -4px;
+    right: 8px;
+}
+.first {
+    right: 5px;
+    top: 24px;
+}
+.approach-textbox h4 {
+    font-size: 12px;
+  
+}
+.approach-textbox p {
+    max-width: 314px;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.second {
+    left: 2px;
+    top: 27px;
+}
+.text-box h3 {
+    font-size: 15px;
+}
+.text-box p {
+    font-size: 8px;
+}
+
+.analysis-heading h2 {
+    font-size: 22px;
+}
+.analysis-heading p {
+    font-size: 17px;
+}
+#popup-box {
+    max-width: 615px;
+   
+    transform: translate(-4px, 10px);
+
+}
+
+#popup-box p {
+    max-width: 424px;
+}
+input.form-control.end {
+    width: 525px;
+}
+
+
+}
+
+
+/*------------ x small  320-575----------*/
+@media (min-width:320px) and (max-width:575px){
+
+.header-right li {
+    font-size: 12px;
+    padding-right: 2px;
+}
+
+.banner-text {
+    top: 48%;
+}
+.banner-text h1 {
+    font-size: 21px;
+}
+.banner-text p {
+    font-size: 13px;
+}
+.btn-custom1 {
+    font-size: 13px;
+        padding: 6px 15px;
+
+}
+  
+
+.navbar-brand img {
+    width: 82%;
+}
+.list-unstyled h1 {
+    font-size: 24px;
+}
+.list-unstyled h6 {
+    font-size: 10px;
+}
+
+.banner-text p {
+    font-size: 9px;
+}
+
+section.about-section {
+    padding: 40px 20px;
+}
+.heading::after {
+    left: 41%;
+}
+.heading h2 {
+    font-size: 20px;
+}
+
+.heading p {
+    font-size: 11px;
+}
+
+.about-box img {
+    max-width: 35px;
+    max-height: 34px;
+}
+
+.about-box h3 {
+    font-size: 10px;
+}
+.about-box p {
+    width: 79px;
+ margin: auto;
+    font-size: 10px;
+    line-height: 16px;
+
+}
+
+section.approach-section {
+    padding: 40px 14px;
+ 
+}
+
+.heading1 h2 {
+    font-size: 20px;
+}
+
+.heading1 p {
+    font-size: 11px;
+}
+.span {
+    width: 30px;
+    height: 30px;
+}
+.odd {
+    left: 30%;
+}
+.even {
+    right: 25%;
+    left: 64%;
+}
+
+.span strong {
+    font-size: 14px;
+}
+
+.span h6 {
+    font-size: 8px;
+    bottom: -8px;
+    right: 5px;
+}
+
+.first {
+    right: 50%;
+    top: 50%;
+    transform: translate(81%, -36%);
+}
+
+.approach-textbox.first {
+    max-width: 50%;
+}
+.approach-textbox h4 {
+    font-size: 9px;
+    margin-bottom: 0;
+}
+
+.approach-textbox p {
+    min-width: 162px;
+    font-size: 6px;
+    line-height: 10px;
+}
+
+.second {
+    left: 50%;
+    top: 50%;
+    transform: translate(-81%, -36%);
+}
+
+.approach-boxeven img {
+    min-width: 291px;
+}
+.approach-textbox.second {
+    max-width: 80%;
+}
+
+section.work-section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-box img {
+    max-width: 7%;
+}
+.heading1::after {
+    left: 43%;
+}
+
+.text-box h3 {
+    font-size: 8px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+
+}
+.text-box p {
+    font-size: 5px;
+}
+.analysis-heading h2 {
+    font-size: 13px;
+}
+.analysis-heading p {
+    font-size: 12px;
+}
+
+#popup-box p {
+    font-size: 11px;
+    line-height: 15px;
+    max-width: 261px;
+    padding-bottom: 16px;
+}
+
+.formpart {
+    width: 336px;
+  
+}
+.formpart input {
+    padding: 5px 10px;
+}
+.form-control {
+    font-size: 12px;
+}
+.btn-custom5 {
+    width: 128px;
+    font-size: 13px;
+ 
+}
+#popup-box {
+    max-width: 282px;
+    transform: translate(1px, 10px);
+}
+
+#popup-box:after {
+    left: 40%;
+}
+.form-control {
+    width: 73%;
+    margin-left: 14px;
+}
+
+.btn-custom5 {
+    margin-left: 81px;
+    
+}
+input.form-control.end {
+    width: 256px;
+}
+
+}

@@ -1,0 +1,544 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Open+Sans:wght@300;400&display=swap');
+
+*body{
+	font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+header.top-header {
+    background-color: #f0f2f4;
+    border-bottom: 2px solid #e2e2e2;
+    
+
+}
+
+
+
+.header-left ul.nav {
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.header-left ul li.icon {
+    padding-right: 18px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.header-left{
+    border-right: 2px solid #e2e2e2;
+}
+
+.header-left ul li.number {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-right li {
+ 
+    padding-right: 15px;
+}
+
+.header-right li a{
+	color: white;
+	padding: 2px 8px;
+	border-radius: 5px;
+	background-color: #1287bf;
+}
+
+
+/* ---top-header end---*/
+
+/* ---nav-bar start---*/
+
+
+
+.list-unstyled h1 {
+    font-size: 37px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.list-unstyled h6 {
+    font-size: 15px;
+    font-weight: 500;
+  
+}
+
+li.nav-item {
+    margin-right: 45px;
+}
+
+li.nav-item a{
+	font-size: 15px;
+	font-weight: 700;
+	color: #ffffff;
+}
+a.nav-link.active {
+    color: red !important;
+}
+li.nav-item.dot {
+
+    list-style: disc;
+}
+
+.btn-custom{
+	background-color: red;
+	color: white;
+	padding: 8px 25px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+/* ---nav-bar end---*/
+
+/* ---  banner-section start---*/
+
+section.banner-section {
+  
+    position: relative;
+
+	
+}
+
+.banner-text {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text h1{
+ font-size: 48px;
+ font-weight: 700;
+ color: white;
+}
+
+.banner-text p{
+	 font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.btn-custom1 {
+		background-color: #f8cd53;
+	color: white;
+	padding: 10px 30px;
+	font-size: 23px;
+	font-weight: 700;
+}
+
+
+
+/* ---banner-section end---*/
+
+/* ---  about-section start---*/
+
+section.about-section {
+    padding: 40px 0;
+}
+
+.heading{
+	margin-bottom: 80px;
+	position: relative;
+}
+.heading::after {
+    position: absolute;
+    content: "";
+    width: 61px;
+    height: 3px;
+    background-color: black;
+    left: 47%;
+}
+
+.heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+.heading p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.about-box img{
+	 margin-bottom: 25px;
+}
+
+.about-box h3 {
+    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+     margin-bottom: 10px;
+}
+.about-box p {
+	max-width: 246px;
+	margin: auto;
+    font-size: 13px;
+   font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* ---about-section end---*/
+
+/* ---  approach-section start---*/
+section.approach-section {
+    padding: 40px 0;
+    background-color: #f3f3f3;
+}
+
+.approach-textbox h4{
+ font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+     margin-bottom: 10px;
+}
+
+.approach-textbox p{
+	max-width: 525px;	
+    font-size: 13px;
+   font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.approach-boxodd{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.first{
+    position: absolute;
+    right: 159px;
+    top: 82px;
+}
+
+.approach-boxeven{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.second {
+    position: absolute;
+    left: 62px;
+    top: 82px;
+}
+
+
+.span {
+    background-color: red;
+    width: 90px;
+    height: 90px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.span strong {
+    font-size: 41px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0;
+    color: white;
+    position: relative;
+}
+
+.span h6 {
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    bottom: 9px;
+    right: 23px;
+    color: white;
+}
+
+.odd {
+    position: absolute;
+    top: 34%;
+    left: 27%;
+}
+
+.even {
+    position: absolute;
+    top: 34%;
+    right: 35%;
+}
+
+/* ---approach-section end---*/
+
+/* ---  work-section start---*/
+section.work-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #de2b24;
+}
+
+.heading1{
+	margin-bottom: 80px;
+	position: relative;
+	color: white;
+}
+.heading1::after {
+    position: absolute;
+    content: "";
+    width: 61px;
+    height: 3px;
+    background-color: white;
+    left: 47%;
+
+}
+
+.heading1 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+.heading1 p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.work-blankbox{
+	background-color: #f35e59;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 200px;
+
+}
+
+.text-box h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.text-box p {
+    font-size: 20px;
+    font-weight: 500;
+  
+}
+
+.work-imgbox {
+	width: 100%;
+	height: 100%;
+}
+
+.work-imgbox img{
+	width: 100%;
+	height: 100%;
+}
+
+/* ---work-section end---*/
+
+/* ---  analysis-section start---*/
+section.analysis-section {
+    padding: 80px 0;
+    background-color: #1287bf;
+   
+}
+
+.analysis-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.analysis-heading p {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff;
+}
+
+.btn-custom3{
+	color: #ffffff;
+	border:2px solid #ffffff;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	font-size: 18px;
+	margin-bottom: 60px;
+}
+
+#popup-box{
+	max-width: 700px;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	border: 2px solid #ffffff;
+	background-color: #ffffff;
+	position: relative;
+	display: none;
+}
+#popup-box:after {
+    position: absolute;
+    content: " ";
+    width: 50px;
+    height: 50px;
+    border-top: 0px solid white;
+    border-bottom: 2px solid white;
+    border-left: 0px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    top: -27px;
+    left: 46%;
+    background-color: white;
+}
+
+
+#cross-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    line-height: 41px;
+    top: -27px;
+    right: -17px;
+
+}
+
+#popup-box p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
+    color: black;
+    line-height: 19px;
+    color: #c1c1c1;
+    max-width: 598px;
+    margin: auto;
+    padding-bottom: 31px;
+}
+
+.formpart{
+width: 500px;
+margin: auto;
+
+
+}
+
+.formpart input{
+	padding: 12px 10px;
+}
+
+
+.btn-custom5 {
+    width: 189px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    border-radius: inherit;
+    display: block;
+    padding: 9px 0;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* ---analysis-section end---*/
+
+/* ---  footer-section start---*/
+section.footer-section {
+    padding: 40px 0;
+    background-color: #2a2a2a;
+}
+
+.middle h4 {
+    color: white;
+    margin-bottom: 35px;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.middle ul.nav {
+    margin-bottom: 40px;
+}
+.middle a {
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid #515151;
+    margin-right: 23px;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.middle a:hover {
+	  padding: 12px;
+	  border: 1px solid red;
+	}
+
+.middle p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #cecece;
+    margin-bottom: 30px;
+}
+
+input.form-control.end {
+    width: 600px;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: #515151;
+    margin-bottom: 20px;
+    border: transparent;
+    border-radius: inherit;
+}
+
+
+.btn-custom2{
+	background-color:transparent;
+	color: white;
+	padding: 8px 25px;
+	font-size: 15px;
+	font-weight: 700;
+	border: 1px solid #515151;
+	 transition: .3s;
+}
+.btn-custom2:hover{
+	color: red;
+}
+
+.bottom-footer {
+	background-color: #515151;
+}
+
+
+.bottom-footer p{
+  font-size: 14px;
+    font-weight: 400;
+    color:  #c0c0c0;
+margin-top: 10px;
+}
+
+
+/* ---footer-section end---*/
+
